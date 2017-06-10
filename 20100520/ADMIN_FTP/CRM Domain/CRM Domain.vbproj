@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DC9F18F9-425E-4D52-A6A6-DC2E8BDA6258}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Admin.Domain</RootNamespace>
+    <AssemblyName>Admin Domain</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Attachment.vb" />
+    <Compile Include="Entities\Currency.vb" />
+    <Compile Include="Entities\Customer.vb" />
+    <Compile Include="Entities\CustomerGroup.vb" />
+    <Compile Include="Entities\Employee.vb" />
+    <Compile Include="Entities\System\Action.vb" />
+    <Compile Include="Entities\System\Licence.vb" />
+    <Compile Include="Entities\System\ObjectProperty.vb" />
+    <Compile Include="Entities\System\Profile.vb" />
+    <Compile Include="Entities\SalesTerm.vb" />
+    <Compile Include="Entities\State.vb" />
+    <Compile Include="Entities\SystemEntity.vb" />
+    <Compile Include="Entities\System\Company.vb" />
+    <Compile Include="Entities\System\User.vb" />
+    <Compile Include="Entities\Task.vb" />
+    <Compile Include="Entities\TaskEntity.vb" />
+    <Compile Include="Entities\TaskEvent.vb" />
+    <Compile Include="Entities\TaskType.vb" />
+    <Compile Include="Entities\Tax.vb" />
+    <Compile Include="Entities\Transport.vb" />
+    <Compile Include="Entities\Zone.vb" />
+    <Compile Include="Events.vb" />
+    <Compile Include="Handlers\Encrypter.vb" />
+    <Compile Include="Handlers\EntityHandler.vb" />
+    <Compile Include="Handlers\NetworkBrowser.vb" />
+    <Compile Include="Handlers\QueryHandler.vb" />
+    <Compile Include="Handlers\ShortcutHandler.vb" />
+    <Compile Include="Handlers\SmtpHandler.vb" />
+    <Compile Include="Handlers\SqlBrowser.vb" />
+    <Compile Include="Handlers\Tango.vb" />
+    <Compile Include="Handlers\Win32.vb" />
+    <Compile Include="Handlers\WinSockClient.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Handlers\ActionHandler.vb" />
+    <Compile Include="Repositories\CompanyRepository.vb" />
+    <Compile Include="Repositories\CurrencyRepository.vb" />
+    <Compile Include="Repositories\CustomerGroupRepository.vb" />
+    <Compile Include="Repositories\CustomerRepository.vb" />
+    <Compile Include="Repositories\EmployeeRepository.vb" />
+    <Compile Include="Repositories\FileRepository.vb" />
+    <Compile Include="Repositories\ProfileRepository.vb" />
+    <Compile Include="Repositories\SalesTermRepository.vb" />
+    <Compile Include="Repositories\StateRepository.vb" />
+    <Compile Include="Repositories\SystemObjectsRepository.vb" />
+    <Compile Include="Repositories\TaskEntityRepository.vb" />
+    <Compile Include="Repositories\TaskEventRepository.vb" />
+    <Compile Include="Repositories\TaskRepository.vb" />
+    <Compile Include="Repositories\TaskTypeRepository.vb" />
+    <Compile Include="Repositories\TaxRepository.vb" />
+    <Compile Include="Repositories\TransportRepository.vb" />
+    <Compile Include="Repositories\UserRepository.vb" />
+    <Compile Include="Repositories\ZoneRepository.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CRM Data\CRM Data.vbproj">
+      <Project>{48F37067-27FE-47ED-A021-CE838429F188}</Project>
+      <Name>CRM Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="HardLockServer">
+      <Guid>{AA3E48EB-AB2E-11D2-A711-006097BA9F18}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

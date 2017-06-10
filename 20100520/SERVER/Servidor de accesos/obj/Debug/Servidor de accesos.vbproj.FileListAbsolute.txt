@@ -1,0 +1,69 @@
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRMV3\CRM Server\Servidor de accesos\Servidor de accesos\obj\Debug\ResolveAssemblyReference.cache
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRMV3\CRM Server\Servidor de accesos\Servidor de accesos\obj\Debug\Servidor de accesos.vbproj.GenerateResource.Cache
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRMV3\CRM Server\Servidor de accesos\Servidor de accesos\bin\Debug\Servidor de accesos.exe.config
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRMV3\CRM Server\Servidor de accesos\Servidor de accesos\bin\Debug\Servidor de accesos.exe
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRMV3\CRM Server\Servidor de accesos\Servidor de accesos\bin\Debug\Servidor de accesos.pdb
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRMV3\CRM Server\Servidor de accesos\Servidor de accesos\obj\Debug\AccessServer.frmAccessServer.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRMV3\CRM Server\Servidor de accesos\Servidor de accesos\obj\Debug\AccessServer.frmList.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRMV3\CRM Server\Servidor de accesos\Servidor de accesos\obj\Debug\AccessServer.frmServerConfig.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRMV3\CRM Server\Servidor de accesos\Servidor de accesos\obj\Debug\AccessServer.Resources.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRMV3\CRM Server\Servidor de accesos\Servidor de accesos\obj\Debug\Servidor de accesos.exe
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRMV3\CRM Server\Servidor de accesos\Servidor de accesos\obj\Debug\Servidor de accesos.pdb
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.exe.config
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.exe
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.pdb
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.exe
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.pdb
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\SERVER\Servidor de accesos\obj\Debug\ResolveAssemblyReference.cache
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmAccessServer.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmList.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmServerConfig.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\SERVER\Servidor de accesos\obj\Debug\AccessServer.Resources.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.vbproj.GenerateResource.Cache
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\V2\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.exe.config
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\V2\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.exe
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\V2\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.pdb
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090706\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.exe.config
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090706\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.exe
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090706\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.pdb
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090706\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.exe
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090706\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.pdb
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090706\SERVER\Servidor de accesos\obj\Debug\ResolveAssemblyReference.cache
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090706\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmAccessServer.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090706\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmList.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090706\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmServerConfig.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090706\SERVER\Servidor de accesos\obj\Debug\AccessServer.Resources.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090706\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.vbproj.GenerateResource.Cache
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090720\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.exe.config
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090720\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.exe
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090720\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.pdb
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090720\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.exe
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090720\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.pdb
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090720\SERVER\Servidor de accesos\obj\Debug\ResolveAssemblyReference.cache
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090720\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmAccessServer.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090720\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmList.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090720\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmServerConfig.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090720\SERVER\Servidor de accesos\obj\Debug\AccessServer.Resources.resources
+D:\PROJECTS\BORRAJO\VB9\DACCORD\CRM\SRC\CRM\RELEASE20090720\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.vbproj.GenerateResource.Cache
+E:\PRODUCCION\CRM\RELEASE20091020\RELEASE20091020\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.exe.config
+E:\PRODUCCION\CRM\RELEASE20091020\RELEASE20091020\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.exe
+E:\PRODUCCION\CRM\RELEASE20091020\RELEASE20091020\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.pdb
+E:\PRODUCCION\CRM\RELEASE20091020\RELEASE20091020\SERVER\Servidor de accesos\obj\Debug\ResolveAssemblyReference.cache
+E:\PRODUCCION\CRM\RELEASE20091020\RELEASE20091020\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmAccessServer.resources
+E:\PRODUCCION\CRM\RELEASE20091020\RELEASE20091020\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmList.resources
+E:\PRODUCCION\CRM\RELEASE20091020\RELEASE20091020\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmServerConfig.resources
+E:\PRODUCCION\CRM\RELEASE20091020\RELEASE20091020\SERVER\Servidor de accesos\obj\Debug\AccessServer.Resources.resources
+E:\PRODUCCION\CRM\RELEASE20091020\RELEASE20091020\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.vbproj.GenerateResource.Cache
+E:\PRODUCCION\CRM\RELEASE20091020\RELEASE20091020\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.exe
+E:\PRODUCCION\CRM\RELEASE20091020\RELEASE20091020\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.pdb
+E:\PRODUCCION\CRM\RELEASES\20100520\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.exe.config
+E:\PRODUCCION\CRM\RELEASES\20100520\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.exe
+E:\PRODUCCION\CRM\RELEASES\20100520\SERVER\Servidor de accesos\bin\Debug\Servidor de accesos.pdb
+E:\PRODUCCION\CRM\RELEASES\20100520\SERVER\Servidor de accesos\obj\Debug\ResolveAssemblyReference.cache
+E:\PRODUCCION\CRM\RELEASES\20100520\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmAccessServer.resources
+E:\PRODUCCION\CRM\RELEASES\20100520\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmList.resources
+E:\PRODUCCION\CRM\RELEASES\20100520\SERVER\Servidor de accesos\obj\Debug\AccessServer.frmServerConfig.resources
+E:\PRODUCCION\CRM\RELEASES\20100520\SERVER\Servidor de accesos\obj\Debug\AccessServer.Resources.resources
+E:\PRODUCCION\CRM\RELEASES\20100520\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.vbproj.GenerateResource.Cache
+E:\PRODUCCION\CRM\RELEASES\20100520\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.exe
+E:\PRODUCCION\CRM\RELEASES\20100520\SERVER\Servidor de accesos\obj\Debug\Servidor de accesos.pdb

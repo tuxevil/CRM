@@ -1,0 +1,119 @@
+USE [Daccord_S.A.]
+GO
+/****** Objeto:  StoredProcedure [dbo].[sp_UpdateCustomer]    Fecha de la secuencia de comandos: 08/05/2010 09:16:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ ALTER PROCEDURE [dbo].[sp_UpdateCustomer] 
+( 
+@COMPANY INT = 0, 
+@IBTAXADITIONALCODE varchar(2) = '',
+@IBTAXCODE varchar(2) = '',
+@IBBTAXCODE smallint = 0,
+@NCTAXCODE smallint = 0,
+@ZIPCODE varchar(8) = '',
+  @CLAUSE bit = 0,
+  @CODE varchar(6) = '',
+  @STATECODE varchar(2) = '',
+  @TRANSPORTCODE varchar(2) = '',
+  @EMPLOYEECODE varchar(2) = '',
+  @ZONECODE varchar(2) = '',
+  @SALESTERMCODE smallint = 0,
+  @CUIT varchar(20) = '',
+  @BIRTHDAY varchar(60) = '1800/01/01',
+  @CREDIT decimal = 0,
+  @ADRESS varchar(55) = '',
+  @DELIVERYADRESS varchar(30) = '',
+  @MAIL varchar(60) = '',
+  @EXPORT bit = 0,
+  @REGISTRATIONDATE varchar(60) = '1800/01/01',
+  @GROUPCODE varchar(6) = '',
+  @IBCALC bit = 0,
+  @IBBCALC bit = 0, 
+ @INTERNALTAXDETAIL bit = 0,
+  @IBBINTERNALTAX bit = 0,
+  @INTERNALTAXCALC bit = 0, 
+ @IVADETAIL bit = 0, 
+ @IVACALC bit = 0, 
+ @IVAFREE bit = 0, 
+ @CITY varchar(20) = '',
+  @IBNUMBER varchar(20) = '',
+  @NAME varchar(60) = '', 
+ @SALESLISTCODE smallint = 0, 
+ @HOURS varchar(60) = '',  
+@DISCOUNTPERCENT decimal = 0,
+  @IVAEXCLUSIONPERCENT decimal = 0,
+  @IVAFREEPERCENT decimal = 0, 
+ @LEGALNAME varchar(60) = '', 
+ @INTERNALTAXPLUS bit = 0,  
+@IVAPLUS bit = 0,  
+@PHONE varchar(30) = '', 
+ @FAX varchar(30) = '',  
+@TIPO varchar(1) = '',  
+@IDCODE smallint = 0,  
+@ZONA_ENVIO varchar(2) = '',  
+@FECHA_MODI datetime = '1800/01/01', 
+ @CURRENCYCODE BIT = 1, 
+ @SUCUR_ORI smallint = 0,  
+@WEB varchar(60) = '', 
+ @COD_RUBRO varchar(4) = '', 
+ @NOTES varchar(max) = '' ) 
+ AS  BEGIN  DECLARE @ID INT  
+
+UPDATE DBO.GVA14 	
+
+SET 
+CUIT  = @CUIT,
+CUMPLEANIO  = CONVERT(DATETIME, @BIRTHDAY, 102),
+CUPO_CREDI  = @CREDIT,
+DIR_COM  = @ADRESS,
+DOMICILIO  = @DELIVERYADRESS,
+E_MAIL  = @MAIL,
+EXPORTA  = @EXPORT,
+GRUPO_EMPR  = @GROUPCODE,
+IB_L  = @IBCALC,
+IB_L3  = @IBBCALC,
+II_D  = (CASE WHEN @INTERNALTAXDETAIL = 0 THEN 'N' ELSE 'S' END),
+II_IB3  = @IBBINTERNALTAX,
+II_L  = (CASE WHEN @INTERNALTAXCALC = 0 THEN 'N' ELSE 'S' END),
+IVA_D  = (CASE WHEN @IVADETAIL = 0 THEN 'N' ELSE 'S' END),
+IVA_L  = (CASE WHEN @IVACALC = 0 THEN 'N' ELSE 'S' END),
+LIB  = (CASE WHEN @IVAFREE = 0 THEN 'N' ELSE 'S' END), 
+LOCALIDAD  = @CITY,
+N_ING_BRUT  = @IBNUMBER,
+NOM_COM  = @NAME,
+NRO_LISTA  = @SALESLISTCODE,
+OBSERVACIO  = @HOURS, 
+PORC_DESC  = @DISCOUNTPERCENT,
+PORC_EXCL  = @IVAEXCLUSIONPERCENT,
+PORC_L  = @IVAFREEPERCENT,
+RAZON_SOCI  = @LEGALNAME,
+SOBRE_II  = (CASE WHEN @INTERNALTAXPLUS = 0 THEN 'N' ELSE 'S' END),
+SOBRE_IVA  = (CASE WHEN @IVAPLUS = 0 THEN 'N' ELSE 'S' END),
+TELEFONO_1  = @PHONE, 
+TELEFONO_2  = @FAX, 
+MON_CTE  = @CURRENCYCODE,
+FECHA_MODI = CONVERT(DATETIME, GETDATE(), 102),
+WEB = @WEB 	
+WHERE 
+COD_CLIENT = @CODE  	
+SET @ID = @@ROWCOUNT  	
+IF @ID > 0 	
+BEGIN 		
+DELETE FROM GVA111 WHERE COD_CLIENT = @CODE 	
+INSERT INTO GVA111 
+(COD_CLIENT, NRO_RENGL, TEXTO)
+VALUES (@CODE, 1, @NOTES)
+		IF EXISTS ( SELECT * FROM  CRM2.dbo.REALCUSTOMERS WHERE ID_COMPANY = @COMPANY 	AND   COD_CLIENT = @CODE)
+  		UPDATE CRM2.dbo.REALCUSTOMERS  		
+SET OBSERVACIO = @HOURS 		
+WHERE ID_COMPANY = @COMPANY 		AND   COD_CLIENT = @CODE  		
+ELSE  		
+INSERT INTO CRM2.dbo.REALCUSTOMERS 
+(ID_COMPANY, COD_CLIENT, OBSERVACIO) 					
+VALUES (@COMPANY, @CODE, @HOURS)  	
+END  	
+RETURN @ID  
+RETURN   
+END 

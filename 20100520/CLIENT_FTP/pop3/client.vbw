@@ -1,0 +1,5 @@
+frmMain = 0, 0, 0, 0, C, 66, 66, 736, 520, C
+modMain = 22, 22, 692, 476, 
+frmReadMessage = 0, 0, 0, 0, C, 88, 88, 758, 542, C
+frmSendMail = 0, 0, 0, 0, C, 110, 110, 780, 564, C
+modUUCode = 44, 44, 714, 498, 
